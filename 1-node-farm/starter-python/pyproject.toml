@@ -1,0 +1,7 @@
+[tool.watchfiles]
+
+#Define which files, extentions to watch
+extensions = [".py", ".html", ".env"]
+
+# Define what folders to completely ignore (like node_modules)
+ignore_paths = ["*/txt/*","txt","venv", ".git", "__pycache__"]
